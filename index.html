@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href=".https://fonts.cdnfonts.com/css/gilroy-bold">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div class="hum">
+       <button class="menuBurger" id="menuButton">
+                    <span></span><span></span><span></span></button>
+            
+    <nav class="Buttons">
+        <a id="H" href="#home">Home</a>
+        <a id="A" href="#About me">About me</a>
+        <a id="S" href="#Skills">Skills</a>
+        <a id="P" href="#Portfolio">Portfolio</a>
+        <a id="C" href="#Contacts">Contacts</a> 
+ <div class="lang" id="langButton" onclick="toggleColors()">
+        <button  onclick="changeLanguage('en')" class="text eng" id="engText">ENG</button> 
+        <hr class="line">
+      <button  onclick="changeLanguage('ru')" class="text ru" id="ruText">RU</button>
+   
+    </div>
+ </nav>
+   
+</div>
+    
+    <section class="designer" id="home">
+        <img class="Vector" src="./img/Vector (2).png" alt="">
+            <div class="Name">
+                <h1 id="Name">Denis Novik</h1>
+                <p id="Job">UX | UI designer 24 years old, Minsk</p>
+                <div class="lang" id="langButton" onclick="toggleColors()">
+                    <button  onclick="changeLanguage('en')" class="text eng" id="engText">ENG</button> 
+                    <hr class="line">
+                  <button  onclick="changeLanguage('ru')" class="text ru" id="ruText">RU</button>
+                </div>
+            </div>
+            <img class="JuniorDenis" src="./img/BSPP2266 (1).png" alt="">
+         <img class="Denis" src="./img/BSPP2266.png" alt="Denis">
+     
+  
+
+    </section>
+
+    <section class="About" id="About me">
+        <h2 id="About">About me</h2>
+        <p id="text1">Hi, I'm Denis – UX/UI designer from Minsk.
+            I'm interested in design and everything connected with it.</p>
+
+        <p id="text2"> I'm studying at courses "Web and mobile design
+            interfaces" in IT-Academy.</p>
+
+        <p id="text3"> Ready to implement excellent projects
+            with wonderful people.</p>
+    </section>
+
+    <section class="skills" id="Skills">
+        <h2 id="Skill">Skills</h2>
+        <span id="Sk">I work in such programs as</span>
+        <div class="Instrument">
+            <div class="programs">   <img src="./img/Group.png" alt="Photoshop">
+            <p>Adobe Photoshop</p>
+            <div class="rating">
+                <input type="radio" id="star5-2" name="rating2" value="5"><label for="star5-2"></label>
+                <input type="radio" id="star4-2" name="rating2" value="4"><label for="star4-2"></label>
+                <input type="radio" id="star3-2" name="rating2" value="3"><label for="star3-2"></label>
+                <input type="radio" id="star2-2" name="rating2" value="2"><label for="star2-2"></label>
+                <input type="radio" id="star1-2" name="rating2" value="1"><label for="star1-2"></label>
+            </div>
+         </div>
+            <div class="programs"> <img src="./img/Group 2.png" alt="ilustrator">
+          <p>Adobe Illustrator</p>
+          <div class="rating">
+            <input type="radio" id="star5-2" name="rating2" value="5"><label for="star5-2"></label>
+            <input type="radio" id="star4-2" name="rating2" value="4"><label for="star4-2"></label>
+            <input type="radio" id="star3-2" name="rating2" value="3"><label for="star3-2"></label>
+            <input type="radio" id="star2-2" name="rating2" value="2"><label for="star2-2"></label>
+            <input type="radio" id="star1-2" name="rating2" value="1"><label for="star1-2"></label>
+        </div> 
+         </div>
+            <div class="programs">    <img src="./img/Group (1).png" alt="effect">
+           <p>Adobe After Effects</p>
+           <div class="rating">
+            <input type="radio" id="star5-2" name="rating2" value="5"><label for="star5-2"></label>
+            <input type="radio" id="star4-2" name="rating2" value="4"><label for="star4-2"></label>
+            <input type="radio" id="star3-2" name="rating2" value="3"><label for="star3-2"></label>
+            <input type="radio" id="star2-2" name="rating2" value="2"><label for="star2-2"></label>
+            <input type="radio" id="star1-2" name="rating2" value="1"><label for="star1-2"></label>
+        </div> 
+       </div>
+            <div class="programs"> <img class="Figma" src="./img/Group 2 (1).png" alt="Figma">
+           <p class="fg">Figma</p>
+           <div class="rating">
+            <input type="radio" id="star5-2" name="rating2" value="5"><label for="star5-2"></label>
+            <input type="radio" id="star4-2" name="rating2" value="4"><label for="star4-2"></label>
+            <input type="radio" id="star3-2" name="rating2" value="3"><label for="star3-2"></label>
+            <input type="radio" id="star2-2" name="rating2" value="2"><label for="star2-2"></label>
+            <input type="radio" id="star1-2" name="rating2" value="1"><label for="star1-2"></label>
+        </div>
+        </div>
+         
+           
+        </div>
+    </section>
+
+    <section class="Portfolio" id="Portfolio">
+        <h2 id="Port">Portfolio</h2>
+        <img src="./img/Слой 8.png" alt="miss">
+        <img src="./img/reebok_web.png" alt="reebok">
+        <img src="./img/reebok_web (1).png" alt="foto">
+    </section>
+
+    <section class="contacts" id="Contacts">
+        <h2 id="Cont">Contacts</h2>
+        <p id="info">Want to know more or just chat?
+            You are welcome!</p>
+        <img src="./img/Group 11.png" alt="">
+        <img src="./img/Group 12.png" alt="">
+
+        <span id="soc">Like me on
+            LinkedIn, Instagram, Behance, Dribble</span>
+
+    </section>
+
+     <script  src="./script.js" defer></script>
+     <script>
+        function toggleColors() {
+            const engText = document.getElementById('engText');
+            const ruText = document.getElementById('ruText');
+
+            if (engText.style.color === 'black') {
+                engText.style.color = 'grey';
+                ruText.style.color = 'black';
+            } else {
+                engText.style.color = 'black';
+                ruText.style.color = 'grey';
+            }
+        }
+    </script>
+</body>
+
+</html>

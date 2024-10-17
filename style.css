@@ -1,0 +1,394 @@
+
+* {
+    margin-top: 40px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+
+}
+
+.lang {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: white;
+    border: none;
+}
+
+.text {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    margin: 5px;
+    padding: 0; 
+}
+
+.line {
+    width: 2px;
+    height: 20px;
+    background-color: black;
+    border: none;
+    margin: 0;
+    padding: 0;
+    transform: rotate(-90deg);
+}
+
+.eng {
+    border: none;
+    background-color:white;
+    color: black;
+    transform: rotate(-90deg);
+}
+
+.ru {
+    border: none;
+    background-color:white;
+    color: grey;
+    transform: rotate(-90deg);
+}
+
+.hum .lang{
+    display: none;
+    border: none;
+} 
+
+.Buttons{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    font-family:'Gilroy-Bold', sans-serif;
+    font-size: px;
+
+}
+
+.Buttons a{
+    text-decoration: none;
+    color: #828282;
+    font-family:'Gilroy-Bold', sans-serif;
+    font-size: 20px;
+}
+
+.Buttons a:hover{
+    color:black;
+}
+
+.Vector{
+    width: 940.6px;
+    height: auto;
+    align-self:center;
+   
+}
+
+.Denis{
+    width: calc(316.5px + (943.61 - 316.5) * ((100vw - 375px) / (1445 - 375)));
+    height: calc(478px + (387 - 478) * ((100vw - 375px) / (1445 - 375)));
+    align-self: center;
+}
+
+.JuniorDenis{
+    display: none;
+}
+
+.designer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.Name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    width: calc(316.5px + (1250 - 316.5) * ((100vw - 375px) / (1445 - 375)));
+}
+
+.Name h1{
+    font-family:'Gilroy-Bold', sans-serif;
+    font-size: 47.34px;
+    width: 124px;
+    
+}
+
+.Name p{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    width: 155px;
+    
+}
+
+.menuBurger{
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color:white;
+    left: 0px;
+    bottom: -80px;
+    z-index: 2;
+    
+}
+
+.menuBurger span{
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color:black;
+    right: 5px;
+    top:-20px;
+    transition: transform .5s, opacity .5s, background-color .5s;
+}
+
+.menuBurger span:nth-child(1){
+    transform: translateY(-10px);
+}
+
+.menuBurger span:nth-child(3){
+    transform: translateY(10px);
+}
+
+.menuBurger.open span:nth-child(1){
+    transform: translateY(0) rotate(45deg);
+}
+.menuBurger.open span:nth-child(2){
+    opacity: 0;
+}
+.menuBurger.open span:nth-child(3){
+    transform: translateY(0) rotate(-45deg);
+}
+
+.About {
+    background-color:#f6f6f6;
+    text-align: center;
+    font-family: 'Gilroy-medium', sans-serif ;
+    padding: 50px 20px;
+}
+
+.About h2 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 34px;
+    text-align: center;
+}
+
+.About p {
+    font-size: 18px;
+    max-width: 440px;
+    margin: 20px auto; 
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.Instrument{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.skills h2{
+    font-size: 34px;
+    font-family: 'Gilroy-Bolt', sans-serif;
+}
+
+.skills span{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+}
+
+.programs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.programs p{
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+    width:  100px;
+
+}
+
+.programs img{
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
+.Figma{
+    width: 58.25px !important;
+    height: 88.99px !important;
+
+}
+
+.fg{
+    padding-bottom: 20px;
+}
+
+.rating {
+    display: flex;
+    direction: rtl;
+    justify-content: center;
+}
+
+.rating input {
+   display: none; 
+}
+
+.rating label {
+    font-size: 30px;
+    color: grey;
+    transition: color 0.3s;
+}
+
+.rating label::before {
+    content: "★";
+    
+}
+
+.rating input:checked ~ label {
+    color: gold;
+}
+
+.rating input:checked + label:hover,
+.rating input:checked + label:hover ~ label {
+    color: gold;
+}
+
+.Portfolio{
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+}
+
+.Portfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    
+}
+
+.Portfolio img{
+    width: calc(316.5px + (943.61 - 316.5) * ((100vw - 375px) / (1445 - 375)));
+    height: calc(171px + (510 - 171) * ((100vw - 375px) / (1445 - 375)));
+    
+}
+
+.Portfolio h2{
+    font-size: 34px;
+    font-family: 'Gilroy-Bolt', sans-serif;
+
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    font-family: 'Gilroy-medium', sans-serif ;
+    padding: 50px 20px;
+}
+
+.contacts h2{
+    font-size: 34px;
+    font-family: 'Gilroy-Bolt', sans-serif;
+}
+
+.contacts p{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    font-size: 18px;
+    max-width: 250px;
+    margin: 20px auto; 
+}
+
+@media (max-width: 500px) {
+    .Denis{
+        display: none;
+    }
+
+    .JuniorDenis{
+        display: block;
+        width: 100%;
+    }
+
+
+    .Buttons{
+        position: absolute;
+       display: flex;
+       flex-direction: column;
+       gap: 0;
+       background-color:#ffffff;
+       left: -210px;
+       width: 190px;
+       padding: 0px 0px 20px 20px;
+       transition: transform 0.5s ease;
+    }
+
+    .lang{
+        display: none;
+    }
+
+    .hum .lang{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 150px 0px 0px;
+        transform: rotate(180deg);
+        border: none !important;
+        background-color:white;
+    }
+
+    .Buttons.open{
+       left: 0; 
+    }
+
+    
+    .menuBurger.open .Buttons{
+        transform: translateX(100%);
+
+        
+    }
+
+    .Vector{
+        display: none;
+    }
+
+    .rueng{
+        display: none;
+    }
+    
+    .menuBurger{
+        display: block;
+    }
+
+  
+
+
+}
